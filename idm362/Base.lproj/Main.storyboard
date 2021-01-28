@@ -15,64 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gFi-l8-JII">
-                                <rect key="frame" x="16" y="15" width="343" height="138"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="138" id="aLH-yU-KUd"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8Gc-y6-Oyf">
-                                <rect key="frame" x="20" y="163" width="335" height="32"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="KxK-bs-6Bl"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                    <segment title="Third"/>
-                                </segments>
-                            </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Mode:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4v-lv-0U4">
-                                <rect key="frame" x="20" y="214" width="99" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="oTw-Hb-ECh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemIndigoColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FR1-QR-SF9">
-                                <rect key="frame" x="306" y="209" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="mSJ-HN-4Za"/>
-                                </constraints>
-                                <color key="onTintColor" systemColor="systemIndigoColor"/>
-                            </switch>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Gc-y6-Oyf" secondAttribute="trailing" constant="20" id="4pa-Qs-ofk"/>
-                            <constraint firstItem="FR1-QR-SF9" firstAttribute="top" secondItem="8Gc-y6-Oyf" secondAttribute="bottom" constant="15" id="8n6-Dg-1Gd"/>
-                            <constraint firstItem="FR1-QR-SF9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="p4v-lv-0U4" secondAttribute="trailing" constant="8" symbolic="YES" id="DNH-dL-Xdz"/>
-                            <constraint firstItem="p4v-lv-0U4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E4Q-oD-uPU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FR1-QR-SF9" secondAttribute="trailing" constant="20" id="EDp-gT-6g4"/>
-                            <constraint firstItem="gFi-l8-JII" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fxu-km-xed"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gFi-l8-JII" secondAttribute="trailing" constant="16" id="H8T-HM-wM6"/>
-                            <constraint firstItem="8Gc-y6-Oyf" firstAttribute="top" secondItem="gFi-l8-JII" secondAttribute="bottom" constant="10" id="L2s-nW-Sbv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Gc-y6-Oyf" secondAttribute="bottom" constant="473" id="Ljj-Hp-JKu"/>
-                            <constraint firstItem="8Gc-y6-Oyf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RZL-q0-jqu"/>
-                            <constraint firstItem="8Gc-y6-Oyf" firstAttribute="top" secondItem="gFi-l8-JII" secondAttribute="bottom" constant="10" id="WGf-4X-VMo"/>
-                            <constraint firstItem="p4v-lv-0U4" firstAttribute="top" secondItem="8Gc-y6-Oyf" secondAttribute="bottom" constant="20" id="bRa-b6-AsK"/>
-                            <constraint firstItem="gFi-l8-JII" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="fep-DY-gcI"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,12 +26,6 @@
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
