@@ -16,24 +16,130 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BA-qV-p9E">
-                                <rect key="frame" x="68" y="105" width="239" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Of-iN-t3g">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="181"/>
+                                <color key="backgroundColor" red="0.58823529409999997" green="0.63137254899999995" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BA-qV-p9E">
+                                <rect key="frame" x="79" y="113" width="217" height="24"/>
                                 <color key="backgroundColor" red="0.27450980392156865" green="0.21568627450980393" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <state key="normal" title="Is your box ready to be returned?">
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                <state key="normal" title="  Is your box ready to be returned?  ">
                                     <color key="titleColor" red="0.87450980389999999" green="0.87843137250000003" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to Shipback" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sBU-F6-uTG">
-                                <rect key="frame" x="46" y="20" width="283" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to Shipback" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sBU-F6-uTG">
+                                <rect key="frame" x="40" y="20" width="295" height="53"/>
+                                <color key="backgroundColor" red="0.58823529409999997" green="0.63137254899999995" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.58823529409999997" green="0.63137254899999995" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="28"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Total Credit Earned:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zu0-Ls-QrL">
+                                <rect key="frame" x="40" y="316.5" width="190" height="34"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Carbon Offset:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kzl-cS-T4u">
+                                <rect key="frame" x="40" y="365.5" width="130" height="34"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Total Boxes Returned:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zR6-Yx-5qp">
+                                <rect key="frame" x="40" y="267" width="181" height="34.5"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="14" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ddz-vb-ySQ">
+                                <rect key="frame" x="238" y="267" width="97" height="34.5"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="$22.43" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PHa-aJ-nxU">
+                                <rect key="frame" x="238" y="316.5" width="97" height="34"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="HjA-ud-fn5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="-35 lbs" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DiG-Wf-ea8">
+                                <rect key="frame" x="238" y="365.5" width="97" height="34"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QWv-tM-vqe">
+                                <rect key="frame" x="0.0" y="485.5" width="375" height="303.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Truck 1" translatesAutoresizingMaskIntoConstraints="NO" id="ywT-yO-Bsc">
+                                        <rect key="frame" x="20" y="0.0" width="335" height="288"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="288" id="q0f-Ws-UgH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Why Shipback?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mtU-KX-uDn">
+                                        <rect key="frame" x="105.5" y="57" width="164" height="47"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mtU-KX-uDn" secondAttribute="trailing" constant="105.5" id="Bly-a6-k9N"/>
+                                    <constraint firstItem="mtU-KX-uDn" firstAttribute="top" secondItem="QWv-tM-vqe" secondAttribute="top" constant="57" id="Ts5-Ho-L8n"/>
+                                    <constraint firstItem="mtU-KX-uDn" firstAttribute="leading" secondItem="QWv-tM-vqe" secondAttribute="leading" constant="105.5" id="UC6-R5-P3d"/>
+                                    <constraint firstItem="ywT-yO-Bsc" firstAttribute="leading" secondItem="QWv-tM-vqe" secondAttribute="leading" constant="20" id="VZ0-DM-zNW"/>
+                                    <constraint firstItem="ywT-yO-Bsc" firstAttribute="top" secondItem="QWv-tM-vqe" secondAttribute="top" id="YMB-8v-Hlb"/>
+                                    <constraint firstItem="ywT-yO-Bsc" firstAttribute="centerX" secondItem="QWv-tM-vqe" secondAttribute="centerX" id="Zyf-hQ-0qI"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sBU-F6-uTG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="21R-gH-wop"/>
+                            <constraint firstItem="zR6-Yx-5qp" firstAttribute="leading" secondItem="Zu0-Ls-QrL" secondAttribute="leading" id="2V8-pw-Bv1"/>
+                            <constraint firstItem="Kzl-cS-T4u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="41f-FQ-wnl"/>
+                            <constraint firstItem="0Of-iN-t3g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4FI-Q7-yY4"/>
+                            <constraint firstItem="Ddz-vb-ySQ" firstAttribute="top" secondItem="0Of-iN-t3g" secondAttribute="bottom" constant="86" id="4io-ft-3O3"/>
+                            <constraint firstItem="zR6-Yx-5qp" firstAttribute="top" secondItem="0Of-iN-t3g" secondAttribute="bottom" constant="86" id="4pH-d6-JQN"/>
+                            <constraint firstItem="Zu0-Ls-QrL" firstAttribute="top" secondItem="zR6-Yx-5qp" secondAttribute="bottom" constant="15" id="5uh-kq-kLT"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="leading" secondItem="DiG-Wf-ea8" secondAttribute="leading" id="6GQ-kM-q34"/>
+                            <constraint firstItem="DiG-Wf-ea8" firstAttribute="top" secondItem="PHa-aJ-nxU" secondAttribute="bottom" constant="15" id="8Ry-xw-OxR"/>
+                            <constraint firstItem="5BA-qV-p9E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="94S-Kh-WDX"/>
+                            <constraint firstItem="Zu0-Ls-QrL" firstAttribute="top" secondItem="zR6-Yx-5qp" secondAttribute="bottom" constant="15" id="C2T-g4-qYa"/>
+                            <constraint firstItem="zR6-Yx-5qp" firstAttribute="leading" secondItem="Kzl-cS-T4u" secondAttribute="leading" id="E0T-X1-fXB"/>
+                            <constraint firstItem="0Of-iN-t3g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ha0-XR-Cv2"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="top" secondItem="Zu0-Ls-QrL" secondAttribute="top" id="IP5-m1-ANS"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="trailing" secondItem="DiG-Wf-ea8" secondAttribute="trailing" id="Kzo-lT-akN"/>
+                            <constraint firstItem="DiG-Wf-ea8" firstAttribute="leading" secondItem="Kzl-cS-T4u" secondAttribute="trailing" constant="68" id="Nne-IE-dju"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sBU-F6-uTG" secondAttribute="trailing" constant="40" id="Nta-SI-AGs"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="bottom" secondItem="Zu0-Ls-QrL" secondAttribute="bottom" id="P5a-ud-Hw0"/>
+                            <constraint firstItem="5BA-qV-p9E" firstAttribute="top" secondItem="sBU-F6-uTG" secondAttribute="bottom" constant="40" id="SiV-A3-VBY"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="leading" secondItem="Zu0-Ls-QrL" secondAttribute="trailing" constant="8" id="VZF-5O-hAP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ddz-vb-ySQ" secondAttribute="trailing" constant="40" id="WAh-Ed-Ezd"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="top" secondItem="Ddz-vb-ySQ" secondAttribute="bottom" constant="15" id="ZDA-q8-saM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5BA-qV-p9E" secondAttribute="trailing" constant="79" id="drF-WS-Pep"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="leading" secondItem="Ddz-vb-ySQ" secondAttribute="leading" id="e0J-Tm-tsm"/>
+                            <constraint firstItem="Kzl-cS-T4u" firstAttribute="top" secondItem="Zu0-Ls-QrL" secondAttribute="bottom" constant="15" id="f9Y-rv-xTy"/>
+                            <constraint firstItem="PHa-aJ-nxU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="g9x-wf-Dbi"/>
+                            <constraint firstItem="zR6-Yx-5qp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gAs-D1-pck"/>
+                            <constraint firstItem="QWv-tM-vqe" firstAttribute="trailing" secondItem="0Of-iN-t3g" secondAttribute="trailing" id="k6d-pN-hLp"/>
+                            <constraint firstItem="QWv-tM-vqe" firstAttribute="leading" secondItem="0Of-iN-t3g" secondAttribute="leading" id="li5-jZ-9N2"/>
+                            <constraint firstItem="Ddz-vb-ySQ" firstAttribute="leading" secondItem="zR6-Yx-5qp" secondAttribute="trailing" constant="17" id="mEd-NW-9Zj"/>
+                            <constraint firstItem="QWv-tM-vqe" firstAttribute="top" secondItem="Kzl-cS-T4u" secondAttribute="bottom" constant="86" id="qRd-WF-ozS"/>
+                            <constraint firstItem="sBU-F6-uTG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="qzh-xC-Q8f"/>
+                            <constraint firstItem="zR6-Yx-5qp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="267" id="t4n-wW-9IU"/>
+                            <constraint firstItem="0Of-iN-t3g" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vzJ-tp-snm"/>
+                            <constraint firstItem="Zu0-Ls-QrL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="wOW-47-4tr"/>
+                            <constraint firstAttribute="bottom" secondItem="QWv-tM-vqe" secondAttribute="bottom" constant="-122" id="yIE-eC-cA8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -42,6 +148,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Truck 1" width="1352" height="985"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
