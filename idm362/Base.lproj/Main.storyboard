@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Why Us?-->
         <scene sceneID="JZq-lz-BIs">
             <objects>
                 <viewController id="ILr-lm-Pri" sceneMemberID="viewController">
@@ -47,6 +47,32 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6BM-Yo-oRN">
                                 <rect key="frame" x="0.0" y="209" width="375" height="458"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" text="Using Shipback helps offset your Carbon Footprint, improving the health of our planet with every box. " translatesAutoresizingMaskIntoConstraints="NO" id="HrN-vv-KUd">
+                                        <rect key="frame" x="61" y="71" width="252" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" text="You can also earn credit and discount codes for every box you return!" translatesAutoresizingMaskIntoConstraints="NO" id="co0-us-BO3">
+                                        <rect key="frame" x="61" y="149" width="252" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" text="Explore Shipback to learn all of the benefits this simle service provides!" translatesAutoresizingMaskIntoConstraints="NO" id="9Lg-jq-HYk">
+                                        <rect key="frame" x="61" y="207" width="252" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.86666666670000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
@@ -62,13 +88,13 @@
                             <constraint firstItem="6BM-Yo-oRN" firstAttribute="top" secondItem="qRk-bN-0Ha" secondAttribute="top" constant="209" id="xhe-bO-3py"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="d0t-UR-XjJ"/>
+                    <tabBarItem key="tabBarItem" title="Why Us?" selectedImage="questionmark.square.fill" catalog="system" id="d0t-UR-XjJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSd-im-2rV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757.60000000000002" y="342.27886056971516"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="la8-Cb-8AB">
             <objects>
                 <viewController id="lEb-ph-yMR" sceneMemberID="viewController">
@@ -199,7 +225,7 @@
                         <viewLayoutGuide key="safeArea" id="7dl-ge-H1k"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="home" systemItem="mostRecent" id="M0O-Nq-KuC"/>
+                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house.fill" catalog="system" id="M0O-Nq-KuC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loE-ve-HKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -228,9 +254,10 @@
     </scenes>
     <resources>
         <image name="Truck 1" width="676" height="492.5"/>
-        <image name="home" width="256" height="177"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="questionmark.square.fill" catalog="system" width="128" height="114"/>
         <namedColor name="Green">
-            <color red="0.3921568627" green="0.40784313729999999" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.3919999897480011" green="0.40799999237060547" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
