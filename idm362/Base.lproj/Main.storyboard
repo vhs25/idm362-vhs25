@@ -296,30 +296,6 @@
             </objects>
             <point key="canvasLocation" x="-494" y="-366"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="pFf-oU-fnC">
-            <objects>
-                <viewController id="V6x-em-m2M" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="icb-tP-ynX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="6KK-2K-m8i">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="safeArea" id="SY5-PY-BHo"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="XB0-rZ-x3p"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" selectedImage="house.fill" id="Gyc-mY-eOI"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Po0-DJ-8pt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1417" y="342"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Truck 1" width="676" height="492.5"/>
