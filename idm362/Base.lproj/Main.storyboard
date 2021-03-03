@@ -142,10 +142,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="9MQ-Md-Xe4"/>
                                     <constraint firstItem="EPe-xg-3Da" firstAttribute="top" secondItem="zu8-aw-egl" secondAttribute="top" constant="70" id="FqM-8K-lVN"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aRF-AE-LNQ" secondAttribute="trailing" symbolic="YES" id="ROi-aD-8DK"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aRF-AE-LNQ" secondAttribute="trailing" constant="20" symbolic="YES" id="ROi-aD-8DK"/>
                                     <constraint firstItem="aRF-AE-LNQ" firstAttribute="top" secondItem="EPe-xg-3Da" secondAttribute="bottom" constant="43" id="W51-gV-Uck"/>
                                     <constraint firstItem="EPe-xg-3Da" firstAttribute="leading" secondItem="zu8-aw-egl" secondAttribute="leading" constant="69" id="cbw-z5-EwP"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EPe-xg-3Da" secondAttribute="trailing" symbolic="YES" id="uVd-hp-HJW"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EPe-xg-3Da" secondAttribute="trailing" constant="20" symbolic="YES" id="uVd-hp-HJW"/>
                                     <constraint firstItem="aRF-AE-LNQ" firstAttribute="leading" secondItem="zu8-aw-egl" secondAttribute="leading" constant="79" id="vFj-4Q-mFA"/>
                                 </constraints>
                             </view>
@@ -267,6 +267,77 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loE-ve-HKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="758" y="-391"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r5q-DD-LDs">
+            <objects>
+                <viewController id="aGm-t7-fNx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ph-Rk-Xhl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="1. Your box should be undamaged" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WlX-f7-iUR">
+                                <rect key="frame" x="40" y="202" width="295" height="37"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="A93-Fw-ZUu"/>
+                                </constraints>
+                                <color key="textColor" red="0.87450980389999999" green="0.87843137250000003" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="2. Collapse your box" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lYo-hb-Mc4">
+                                <rect key="frame" x="40" y="239" width="244" height="35"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="CWw-oi-1zO"/>
+                                </constraints>
+                                <color key="textColor" red="0.87450980389999999" green="0.87843137250000003" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="3. Find dropbox location" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3s2-a4-gaG">
+                                <rect key="frame" x="40" y="274" width="244" height="42"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="hmk-GW-NUc"/>
+                                </constraints>
+                                <color key="textColor" red="0.87450980389999999" green="0.87843137250000003" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Is your box ready to be returned?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LM4-KZ-M2V">
+                                <rect key="frame" x="16" y="83" width="343" height="69"/>
+                                <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="YF4-C6-3cl"/>
+                                </constraints>
+                                <color key="textColor" red="0.87450980389999999" green="0.87843137250000003" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BTj-Po-rea"/>
+                        <color key="backgroundColor" red="0.27450980390000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WlX-f7-iUR" firstAttribute="top" secondItem="LM4-KZ-M2V" secondAttribute="bottom" constant="50" id="3VM-Br-U2m"/>
+                            <constraint firstItem="BTj-Po-rea" firstAttribute="trailing" secondItem="3s2-a4-gaG" secondAttribute="trailing" constant="91" id="7uO-zG-AQH"/>
+                            <constraint firstItem="LM4-KZ-M2V" firstAttribute="top" secondItem="BTj-Po-rea" secondAttribute="top" constant="83" id="IkL-wk-YlX"/>
+                            <constraint firstItem="LM4-KZ-M2V" firstAttribute="leading" secondItem="BTj-Po-rea" secondAttribute="leading" constant="16" id="JfA-yT-ZzJ"/>
+                            <constraint firstItem="BTj-Po-rea" firstAttribute="trailing" secondItem="lYo-hb-Mc4" secondAttribute="trailing" constant="91" id="WJw-Ge-a17"/>
+                            <constraint firstItem="BTj-Po-rea" firstAttribute="trailing" secondItem="WlX-f7-iUR" secondAttribute="trailing" constant="40" id="cBY-zs-DjA"/>
+                            <constraint firstItem="3s2-a4-gaG" firstAttribute="top" secondItem="lYo-hb-Mc4" secondAttribute="bottom" id="hwA-r2-ffD"/>
+                            <constraint firstItem="BTj-Po-rea" firstAttribute="trailing" secondItem="LM4-KZ-M2V" secondAttribute="trailing" constant="16" id="n5P-zJ-wUq"/>
+                            <constraint firstItem="WlX-f7-iUR" firstAttribute="leading" secondItem="BTj-Po-rea" secondAttribute="leading" constant="40" id="pVM-RC-4vl"/>
+                            <constraint firstItem="lYo-hb-Mc4" firstAttribute="top" secondItem="WlX-f7-iUR" secondAttribute="bottom" id="qnv-er-1i4"/>
+                            <constraint firstItem="lYo-hb-Mc4" firstAttribute="leading" secondItem="BTj-Po-rea" secondAttribute="leading" constant="40" id="tzW-9V-P6c"/>
+                            <constraint firstItem="3s2-a4-gaG" firstAttribute="leading" secondItem="BTj-Po-rea" secondAttribute="leading" constant="40" id="wCn-4r-meX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DfQ-o9-oXT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="-392.65367316341832"/>
         </scene>
         <!--Storyboard Reference-->
         <scene sceneID="fsu-lm-PVJ">
